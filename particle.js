@@ -2,10 +2,10 @@ function Particle(x, y){
   this.x = x;
   this.y = y;
   this.col = color(255);
-  this.diameter = 1.5;
+  this.diameter = 2.5;
   
   this.display = function(){
-    stroke(255);
+    // stroke(255);
     fill(255);
     ellipse(this.x, this.y, this.diameter, this.diameter);
   }
