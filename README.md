@@ -1,3 +1,2 @@
 # Les-Demoiselles-d-Avignon
-# les-demoiselles-davignon
-# les-demoiselles-davignon
+Recreating and breaking down Picasso's Cubist piece Les Demoiselles d'Avingon
