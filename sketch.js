@@ -113,7 +113,7 @@ Each element is individually hardcoded and commented.
     quad(80, 292, 118,322, 80, 410, 60, 394);
   
   //wrist
-  fill(255);
+  // fill(255);
     triangle(66.1, 380.18, 61.71, 390, 65, 394 );
   
   //hand
@@ -121,6 +121,7 @@ Each element is individually hardcoded and commented.
  // -------------------- THIGH-LEFT (1.) ------------------------
  
   //upper-thigh
+  fill('#C14928');
   quad(133, 519, 175, 380.18, 128, 292,80, 410);
   
   
