@@ -122,7 +122,7 @@ Each element is individually hardcoded and commented.
  
   //upper-thigh
   fill('#C14928');
-  quad(133, 519, 175, 380.18, 128, 292,80, 410);
+  quad(133, 519, 175, 380.18, 125, 280,80, 410);
   
   
  
