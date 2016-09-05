@@ -20,6 +20,9 @@ function draw() {
     particles[i].display();
   }
 
+//floor
+fill('#3F2A45');
+rect(0, 600, 400, 200);
   
 //curtains
   //burnt orange- dark
@@ -116,14 +119,36 @@ Each element is individually hardcoded and commented.
   // fill(255);
     triangle(66.1, 380.18, 61.71, 390, 65, 394 );
   
-  //hand
+  //hand-palm
+    fill('#AE6555');
+    quad(61, 390, 80, 410,80, 423, 50.2, 410);
+    
+  //fingers
+  fill('#B04932')
+  quad(50, 410, 80, 422, 78.4, 443, 52, 424);
+  //fingerspaces
+  fill(109, 30, 19, 60);
+  stroke(1);
+  line(57,427,59, 413);
+  line(63.38, 431.4, 65.64, 416.81);
+  line(71.24, 436.78,73.35, 419);
+  line(79, 440, 80.24, 424);
+  noStroke();
+  
+  
   
  // -------------------- THIGH-LEFT (1.) ------------------------
  
+    //leg-curtain
+  fill('#A62C27');
+  quad(94, 396.05, 149, 466, 154.52, 664, 64.7, 695.58)
+  
   //upper-thigh
   fill('#C14928');
   quad(133, 519, 175, 380.18, 125, 280,80, 410);
   
+
+   
   
  
 }
